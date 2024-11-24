@@ -1,0 +1,174 @@
+.hero1 {
+    display: block;
+    top: 0;
+    background-color: #999;
+    background-image: url(https://roverhamburguer.netlify.app/images/images/fondo.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    z-index: 1;
+}
+
+.hero1 .container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container1 {
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: "Handlee", cursive;
+    margin-bottom: 15px;
+}
+
+.container1 h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #fa573a;
+    margin-bottom: 15px;
+}
+
+.container1 p {
+    display: block;
+    font-size: 18.4px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 15px;
+}
+
+.container1 .boton {
+    display: inline-block;
+    background-color: #fa573a;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 1em;
+    margin-bottom: 15px;
+}
+
+.boton i {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 147px;
+    justify-content: space-between;
+}
+
+ul i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.8s ease, color 0.8s ease;
+}
+
+ul i:hover {
+    color: #fa573a;
+    transform: scale(1.5);
+}
+
+
+.boton i {
+    display: inline-block;
+    transition: transform 0.8s ease, color 0.8s ease;
+}
+
+.boton:hover i {
+    transform: translateX(5px);
+    color: #fa573a;
+}
+
+.boton:hover {
+    background-color: transparent;
+    transition: background-color;
+    color: #fa573a;
+    border: 1px solid #fa573a;
+}
+
+@media (max-width: 768px) {
+    .hero1 {
+        height: 60vh;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .container1 h2 {
+        font-size: 19px;
+    }
+
+    .container1 p {
+        font-size: 18px;
+    }
+
+    .container1 .boton {
+        font-size: 17px;
+        padding: 1em;
+    }
+
+    ul {
+        width: 100px;
+    }
+
+    ul i {
+        font-size: 32px;
+        width: 72px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero1 {
+        height: 60vh;
+        margin-top: 200px;
+    }
+
+    .container1 {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container1 h2 {
+        font-size: 18px;
+    }
+
+    .container1 p {
+        font-size: 16px;
+    }
+
+    .container1 .boton {
+        font-size: 16px;
+        padding: 1px;
+    }
+
+    ul {
+        width: 120px;
+    }
+
+    ul i {
+        font-size: 22px;
+    }
+}

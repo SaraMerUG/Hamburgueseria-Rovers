@@ -1,0 +1,201 @@
+main section {
+    padding: 2.5px 1.5px;
+}
+
+.container3 {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 25px;
+    ;
+}
+
+.container3 h2 {
+    text-align: center;
+    margin: 20px 20px;
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container3 span {
+    color: #fa573a;
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main section .underline {
+    position: relative;
+    width: 6em;
+    margin: 0 auto;
+    color: #fa573a;
+    font-weight: 700;
+    text-align: center;
+}
+
+main section .underline span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -6px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.grid h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 8px 8px;
+}
+
+.grid p {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.grid a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fa573a;
+    font-weight: 700;
+}
+
+.grid article a i {
+    margin-top: 12px;
+}
+
+.grid div i {
+    font-size: 20px;
+    border: 1px solid #fa573a;
+    padding: 10px 10px;
+}
+
+.grid article {
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+.giro {
+    display: inline-block;
+    transform: rotateY(-180deg);
+}
+
+@media (max-width: 768px) {
+    .container3 {
+        padding: 15px;
+    }
+
+    .container3 h2 span {
+        font-size: 32px;
+        position: relative;
+        margin-top: 0;
+        display: inline-block;
+    }
+
+    .container3 span {
+        font-size: 24px;
+    }
+
+    .grid {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .grid h3 {
+        font-size: 18px;
+        margin: 6px;
+    }
+
+    .grid p {
+        font-size: 14px;
+    }
+
+    .grid a {
+        font-size: 16px;
+    }
+
+    .grid div i {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .grid article {
+        border-left: none;
+        border-bottom: 1px solid black;
+        padding: 15px;
+        padding-left: 0;
+    }
+
+    main section .underline {
+        width: 4em;
+    }
+
+    main section .underline span {
+        font-size: 16px;
+        display: inline-block;
+        margin-left: -6px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container3 {
+        padding: 25px;
+    }
+
+    .container3 h2 {
+        font-size: 32px;
+        margin: 20px;
+    }
+
+    .container3 span {
+        font-size: 32px;
+    }
+
+    div .grid {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .grid h3 {
+        font-size: 17.5px;
+        margin: 8px;
+    }
+
+    .grid p {
+        font-size: 15px;
+    }
+
+    .grid a {
+        font-size: 15.5px;
+    }
+
+    .grid div i {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .grid article {
+        border-left: 1px solid black;
+        padding-left: 15px;
+    }
+
+    main section .underline {
+        width: 6em;
+        margin-bottom: 23px;
+    }
+
+    main section .underline span {
+        font-size: 18px;
+    }
+}

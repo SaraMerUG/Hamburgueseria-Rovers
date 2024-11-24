@@ -1,0 +1,9 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+@import url(./reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(./PARTIALS/headerNav1.css);
+@import url(./PARTIALS/headerNav.css);
+@import url(./PARTIALS/hero1.css);
+@import url(./PARTIALS/services.css);
+@import url(./PARTIALS/about.css);
+@import url(./PARTIALS/footer.css);

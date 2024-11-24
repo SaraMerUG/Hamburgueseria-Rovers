@@ -1,0 +1,142 @@
+.navbar {
+    height: 60px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    margin: 10px 20px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    cursor: pointer;
+    color: #fa573a;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.burger div {
+    height: 4px;
+    width: 100%;
+    background-color: #aaa;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .menu {
+        display: none;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-item {
+        font-size: 18px;
+        font-weight: 500;
+        color: #aaa;
+        padding: 10px 0;
+    }
+
+    .menu-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .burger div {
+        background-color: #aaa;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 15px;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .menu {
+        display: block;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+        z-index: 999;
+    }
+
+    .menu-item {
+        font-size: 18px;
+        font-weight: 500;
+        color: #aaa;
+        padding: 10px 0px;
+    }
+
+    .menu-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .burger div {
+        background-color: #aaa;
+    }
+}
